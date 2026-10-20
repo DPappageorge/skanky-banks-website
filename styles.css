@@ -55,14 +55,6 @@ img{display:block;max-width:100%}
   font-size:1.4rem;cursor:pointer;
 }
 
-/* ===== Hero (small decorative art) ===== */
-.hero{background:var(--bg);padding:40px 24px 8px;display:flex;justify-content:center}
-.hero__banner{
-  width:100%;max-width:240px;
-  aspect-ratio:1 / 1;overflow:hidden;
-  border-radius:var(--radius);border:1px solid var(--line);
-}
-.hero__banner img{width:100%;height:100%;object-fit:cover;object-position:center}
 .visually-hidden{
   position:absolute;width:1px;height:1px;padding:0;margin:-1px;
   overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
@@ -137,7 +129,7 @@ img{display:block;max-width:100%}
 .track__dl:hover{color:var(--accent-soft);background:rgba(201,162,74,.12)}
 
 /* ===== Contact ===== */
-.contact{display:flex;flex-direction:column;align-items:center;gap:28px;text-align:center}
+.contact{display:flex;flex-direction:column;align-items:center;gap:20px;text-align:center}
 .socials{display:flex;gap:9px;flex-wrap:wrap;justify-content:center}
 .socials a{
   text-decoration:none;font-weight:500;font-size:.86rem;letter-spacing:.02em;
